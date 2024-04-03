@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: grey;
+}
+.container{
+    width: 600px;
+}
+.header{
+    font-size: 0.8rem;
+    width: 50%;;
+    background-color: black;
+    color:white;
+    padding:1px;
+    border:2px solid white;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.text-area{
+    margin-top: 10px;
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+}
+
+#quote-text{
+    font-size: 1.3rem;
+    line-height: 1.5em;
+}
+
+#author-content{
+    font-size: 1.4rem;
+    margin:2px;
+}
+
+#new-quote-btn{
+    margin: 10px;
+}
+button{
+    padding:2px;
+    font-size: 0.8rem;
+}
